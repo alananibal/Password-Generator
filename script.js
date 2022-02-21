@@ -27,7 +27,7 @@ function generatePassword() {
 
   var upperCaseChoice = confirm("Would you like uppercase characters in your password");
 
-  var specialCharactersChoice = confirm("Would you like numbers in your password")
+  var specialCharactersChoice = confirm("Would you like special characters in your password")
 
   var numbersChoice = confirm("Would you like numbers in your password");
   // atecipate user missteps - In case no option is selected
