@@ -52,16 +52,16 @@ function generatePassword() {
     }  
     
 
-    // randomize all these charachters
+    // loop for the passwrold lenght
     for (var i = 0; i < passwordLenght; i++ ){
       var finalPassword = random(allCharacters)
        finalArray.push(finalPassword)
     }
-
+    // creat the passworld array
     return finalArray.join('')
 
 };
-
+// randomize all these charachters in the array
 function random(array) {
   return array[Math.floor(Math.random() * array.length)]
 };
